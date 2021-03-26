@@ -18,3 +18,19 @@ titles
 title_id PK FK -< employees.emp_title_id
 title
 
+dept_manager
+---
+dept_no
+emp_no
+
+dept_emp
+---
+emp_no
+dept_no
+
+departments
+---
+dept_no
+dept_name
+
+
